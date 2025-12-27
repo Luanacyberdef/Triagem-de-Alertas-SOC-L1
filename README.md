@@ -67,7 +67,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 * **Usuário:** S.Conway
 * **Processo Origem:** chrome.exe (Indica download via navegador).
 * **Arquivo Alvo:** cats2025.mp4.exe (Disfarçado de vídeo para atrair o interesse do usuário).
-* **URL de Origem (MotW):** https://freecatvideoshd.monster/cats2025.mp4.exe (Domínio altamente suspeito .monster).
+* **URL de Origem (MotW):** `https://freecatvideoshd.monster/cats2025.mp4.exe` (Domínio altamente suspeito .monster).
 * **Hash MD5:** 14d8486f3f63875ef93cfd240c5dc10b
 
 ### 2. Análise Técnica:
