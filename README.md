@@ -78,9 +78,9 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 ### 3. Veredito: Verdadeiro Positivo(TP)
 * A combinação de uma dupla extensão executável disfarçada de mídia, baixada de um domínio não confiável para a pasta de Downloads, confirma a tentativa de infecção por malware.
 
-> Dupla Extensão: cats2025.mp4.exe ---> Tanto o `.MP4` quanto o `.exe`.
-> Mark of the Web: O MotW é um recurso de segurança dos sistemas Windows que "carimba" arquivos baixados da internet ou de fontes externas não confiáveis.
-      * Exemplo: Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador".
+> Dupla Extensão: cats2025.mp4.exe ---> Tanto o `.MP4` quanto o `.exe`. <br>
+> Mark of the Web: O MotW é um recurso de segurança dos sistemas Windows que "carimba" arquivos baixados da internet ou de fontes externas não confiáveis. <br>
+      ↪️ Exemplo: Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador".
 
 ### 📝 Plano de Resposta:
 1. **Remediação:** Excluir o arquivo cats2025.mp4.exe e realizar um scan completo de EDR no host LPT-HR-009;
