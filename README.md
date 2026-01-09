@@ -89,6 +89,12 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 
 ---
 
+## 🏛️ Créditos e Direitos Autorais:
+> [!IMPORTANT]
+Este projeto foi desenvolvido como parte dos estudos práticos na plataforma [TryHackMe](https://tryhackme.com/). Todos os direitos sobre os laboratórios, marcas e infraestrutura de treinamento pertencem à respectiva plataforma. A documentação presente neste repositório reflete minha metodologia analítica e resultados obtidos durante a resolução do desafio.
+
+---
+
 <h2> 🔗 Compartilhe com a comunidade 🧡 </h2>
 
 Por favor, se esse conteúdo te ajudou, não esqueça de compartilhar 😁
