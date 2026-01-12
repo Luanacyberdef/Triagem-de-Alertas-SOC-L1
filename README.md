@@ -52,7 +52,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - **Contexto:** Tráfego originado de sala de reuniões. Volume compatível com videoconferência em HD de longa duração.  
 
 ### Veredito:
-**Falso Positivo (FP)** — o tráfego legítimo de videoconferência ultrapassou o threshold configurado no SIEM.
+- **Falso Positivo (FP)** — o tráfego legítimo de videoconferência ultrapassou o threshold configurado no SIEM.
 
 
 > **Obs:** Threshold = Limite.
@@ -61,10 +61,12 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - Implementar whitelist para domínios de colaboração (Zoom, Teams, Meet).  
 - Ajustar regras de correlação considerando tipo de ativo (ex.: salas de conferência).  
 
-### Notas de Análise:
-- Threshold baixo gera muitos Falsos Positivos, aumentando fadiga de alertas.  
-- Técnicas de exfiltração “Low and Slow” podem operar abaixo do threshold, exigindo análise de comportamento em períodos prolongados.  
-- **Low and Slow:** Técnica furtiva usada por atacantes para evitar detecção, transmitindo dados lentamente.
+<details>
+  <summary><strong> 📌 Notas de Análise: Clique aqui </strong></summary>
+- Threshold baixo gera muitos Falsos Positivos, aumentando fadiga de alertas.<br>
+- Técnicas de exfiltração “Low and Slow” podem operar abaixo do threshold, exigindo análise de comportamento em períodos prolongados.<br> 
+- Low and Slow: Técnica furtiva usada por atacantes para evitar detecção, transmitindo dados lentamente.
+</details>
 
 <br>
 
@@ -84,14 +86,18 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - **Vetor de Ataque:** Download via navegador, possivelmente por phishing ou malvertising.  
 
 ### Veredito:
-**Verdadeiro Positivo:** Arquivo malicioso confirmado por extensão dupla e domínio suspeito
+- **Verdadeiro Positivo:** Arquivo malicioso confirmado por extensão dupla e domínio suspeito
 
-### Notas de Análise:
-- Dupla Extensão: cats2025.mp4.exe ---> Tanto o `.MP4` quanto o `.exe`.
+<details>
+  <summary><strong> 📌 Notas de Análise: Clique aqui </strong></summary>
+- Dupla Extensão: cats2025.mp4.exe ---> Tanto o `.MP4` quanto o `.exe`. <br>
 - Mark of the Web: O MotW é um recurso de segurança dos sistemas Windows que "carimba" arquivos baixados da internet ou de fontes externas não confiáveis. <br>
       ↪️ Exemplo: Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador".
+</details>
 
-### 📝 Plano de Resposta:
+<br>
+
+## 📝 Plano de Resposta:
 1. **Remediação:** Excluir o arquivo cats2025.mp4.exe e realizar um scan completo de EDR no host;
 2. **Bloqueio:** Adicionar o domínio `freecatvideoshd.monster` e o `MD5` na Blacklist do Web Filter e do Antivírus corporativo;
 3. **Educação:** Alertar o usuário S.Conway sobre os riscos de downloads em sites não oficiais.
