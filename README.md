@@ -97,6 +97,12 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 > **Nota:** Este projeto faz parte de estudos práticos na plataforma [TryHackMe](https://tryhackme.com/).
 > Todos os direitos sobre laboratórios, marcas e infraestrutura pertencem à respectiva plataforma.
 
+### 📜 Licença
+> [!IMPORTANT]
+> O conteúdo autoral deste repositório está licenciado sob a licença  
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+> Veja: 👉 [LICENSE](./LICENSE.md)
+
 ---
 
 ## 🔗 Compartilhe com a comunidade 🧡
