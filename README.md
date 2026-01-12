@@ -51,7 +51,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - **Avaliação de Contexto:** O tráfego originou-se de uma Sala de Reuniões. Em um cenário de trabalho híbrido ou reuniões globais, o consumo de 5GB de dados é compatível com uma sessão de vídeo em HD de longa duração (Ex: uma manhã inteira de conferência).
 - **Conclusão da Análise:** Não foram encontrados sinais de abuso do serviço para fins de exfiltração; o comportamento é condizente com a função do ativo (sala de conferência).
 
-### ✅ Veredito: Falso Positivo(FP)
+### ✅ Veredito: Falso Positivo (FP)
 - O incidente ocorreu porque a atividade legítima de videoconferência ultrapassou o limite (threshold) de volume configurado no SIEM.
 
 ### 📋 Recomendações sugeridas:
@@ -72,7 +72,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - **Análise do Mark of the Web (MotW):** O recurso Mark of the Web confirma que o arquivo veio de uma zona de internet externa. **A URL utiliza um TLD de baixa reputação** (`.monster`) e nome apelativo, características típicas de infraestrutura de Malware Delivery.
 - **Vetor de Ataque:** O download foi realizado via [Chrome](https://www.google.com/intl/pt-BR/chrome/), sugerindo que o usuário clicou em um link malicioso, possivelmente vindo de um e-mail ou anúncio (Phishing/Malvertising).
 
-### ✅ Veredito: Verdadeiro Positivo(TP)
+### ✅ Veredito: Verdadeiro Positivo (TP)
 - A combinação de uma dupla extensão executável disfarçada de mídia, baixada de um domínio não confiável para a pasta de Downloads, confirma a tentativa de infecção por malware.
 
 ## 📝 Plano de Resposta Sugerido:
@@ -102,6 +102,9 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 > O conteúdo autoral deste repositório está licenciado sob a licença  
 **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 > Veja: 👉 [LICENSE](./LICENSE.md)
+
+## 🤖 Uso de Ferramentas de IA
+> Parte deste conteúdo foi elaborada com apoio de ferramentas de IA, utilizadas como auxílio na organização e redação do texto, com revisão e validação integral pelo autor.
 
 ---
 
