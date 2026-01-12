@@ -62,10 +62,12 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - Ajustar regras de correlação considerando tipo de ativo (ex.: salas de conferência).  
 
 <details>
-  <summary><strong> 📌 Notas de Análise: Clique aqui </strong></summary>
-- Threshold baixo gera muitos Falsos Positivos, aumentando fadiga de alertas.<br>
-- Técnicas de exfiltração “Low and Slow” podem operar abaixo do threshold, exigindo análise de comportamento em períodos prolongados.<br> 
-- Low and Slow: Técnica furtiva usada por atacantes para evitar detecção, transmitindo dados lentamente.
+<summary>📝 Notas de Análise</summary>
+
+- Threshold baixo gera muitos Falsos Positivos, aumentando fadiga de alertas.  
+- Técnicas de exfiltração “Low and Slow” podem operar abaixo do threshold, exigindo análise de comportamento em períodos prolongados.  
+- **Low and Slow:** Técnica furtiva usada por atacantes para evitar detecção, transmitindo dados lentamente.
+
 </details>
 
 <br>
@@ -89,10 +91,12 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - **Verdadeiro Positivo:** Arquivo malicioso confirmado por extensão dupla e domínio suspeito
 
 <details>
-  <summary><strong> 📌 Notas de Análise: Clique aqui </strong></summary>
-- Dupla Extensão: cats2025.mp4.exe ---> Tanto o `.MP4` quanto o `.exe`. <br>
-- Mark of the Web: O MotW é um recurso de segurança dos sistemas Windows que "carimba" arquivos baixados da internet ou de fontes externas não confiáveis. <br>
-      ↪️ Exemplo: Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador".
+  <summary><strong> 📝 Notas de Análise: Clique aqui </strong></summary>
+  
+- Dupla Extensão: cats2025.mp4.exe ---> Tanto o `.MP4` quanto o `.exe`.
+- Mark of the Web: O MotW é um recurso de segurança dos sistemas Windows que "carimba" arquivos baixados da internet ou de fontes externas não confiáveis.
+- **Exemplo:** Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador".
+  
 </details>
 
 <br>
