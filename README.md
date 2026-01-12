@@ -19,7 +19,7 @@
 
 <br>
 
-## 🚦 Visão Geral do Dashboard:
+## 🖥️ Visão Geral do Dashboard:
 Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na fila de triagem.
 <img width="1242" height="456" alt="image" src="https://github.com/user-attachments/assets/8ab95f4e-c062-41f0-81e7-d04fde1dcf4f" />
 
