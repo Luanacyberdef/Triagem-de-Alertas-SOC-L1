@@ -94,15 +94,17 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 
 ## 🏛️ Créditos e Direitos Autorais:
 > [!WARNING]
-> **Nota:** Este projeto faz parte de estudos práticos na plataforma [TryHackMe](https://tryhackme.com/).
-> Todos os direitos sobre laboratórios, marcas e infraestrutura pertencem à respectiva plataforma.
+> Este projeto faz parte de estudos práticos na plataforma [TryHackMe](https://tryhackme.com/). <br>
+> Todos os direitos sobre laboratórios, marcas e infraestrutura pertencem à respectiva plataforma. <br>
+> A documentação reflete a metodologia analítica e os resultados obtidos durante a resolução do desafio.
 
-## 📜 Licença
+## 📜 Licença:
 > [!IMPORTANT]
 > O conteúdo autoral deste repositório está licenciado sob a licença **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. <br>
 > Veja: 👉 [LICENSE](./LICENSE.md)
 
-## 🤖 Uso de IA
+## 🤖 Uso de IA:
+> [!NOTE]
 > Parte deste conteúdo foi elaborada com apoio de ferramentas de IA, utilizadas como auxílio na organização e redação do texto, com revisão e validação integral pelo autor.
 
 ---
