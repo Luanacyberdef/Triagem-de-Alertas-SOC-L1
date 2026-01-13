@@ -87,7 +87,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 - Dupla Extensão: Técnica que explora a confiança do usuário.
     - Ex: cats2025.mp4.exe mostra apenas a parte .mp4 no Windows Explorer se a opção "Ocultar extensões de tipos de arquivos conhecidos" estiver ativa.
 - Mark of the Web (MotW): É um recurso de segurança do Windows que "carimba" arquivos vindos da internet.
-    - Se o usuário tentasse abrir o arquivo, o SmartScreen provavelmente emitiria um alerta de risco.
+    - Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador.
 - Importância do Isolamento: Em um cenário real de SOC, o isolamento do host é a primeira ação de contenção para garantir que uma ameaça não se espalhe pela rede antes da limpeza.
 
 ---
