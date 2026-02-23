@@ -98,14 +98,9 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 > Todos os direitos sobre laboratórios, marcas e infraestrutura pertencem à respectiva plataforma. <br>
 > A documentação reflete a metodologia analítica e os resultados obtidos durante a resolução do desafio.
 
-## 📜 Licença:
-> [!IMPORTANT]
-> O conteúdo autoral deste repositório está licenciado sob a licença **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. <br>
-> Veja: 👉 [LICENSE](./LICENSE.md)
-
 ## 🤖 Uso de IA:
 > [!NOTE]
-> Parte deste conteúdo foi elaborada com apoio de ferramentas de IA, utilizadas como auxílio na organização, com revisão e validação integral pelo autor.
+> Parte deste conteúdo foi elaborada com apoio de ferramentas de IA, utilizadas como auxílio na organização do texto, com revisão e validação integral pelo autor.
 
 ---
 
