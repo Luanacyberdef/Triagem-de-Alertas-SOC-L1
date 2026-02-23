@@ -5,8 +5,8 @@
 <br>
 
 ## 📑 Objetivos:
-- Compreender a estrutura, o ciclo de vida e a importância dos alertas em um Centro de Operações de Segurança (SOC);
-- Explorar campos de alerta, gerenciamento de status (Aberto, Em Andamento, Fechado) e metodologias de classificação.
+- Compreender o ciclo de vida e a importância dos alertas em um Centro de Operações de Segurança (SOC);
+- Explorar campos de alerta, fazer o gerenciamento de status (Aberto, Em Andamento, Fechado) e sua classificação.
 
 <br>
 
@@ -14,7 +14,7 @@
 - Plataforma: TryHackMe.
 - Analista: [@Luanacyberdef](https://tryhackme.com/p/Luanacyberdef).
 - Ambiente: Simulador de Dashboard SOC.
-- Metodologia: Investigação baseada em evidências e análise de alertas.
+- Metodologia: Investigação baseada análise de alertas.
 - Sala no TryHackMe: [SOC L1 Alert Triage](https://tryhackme.com/room/socl1alerttriage).
 
 <br>
@@ -88,7 +88,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
     - Ex: cats2025.mp4.exe mostra apenas a parte .mp4 no Windows Explorer se a opção "Ocultar extensões de tipos de arquivos conhecidos" estiver ativa.
 - Mark of the Web (MotW): É um recurso de segurança do Windows que "carimba" arquivos vindos da internet.
     - Se o usuário tentasse abrir esse arquivo, o Windows provavelmente mostraria aquela tela azul do SmartScreen dizendo "O Windows protegeu o seu computador.
-- Importância do Isolamento: Em um cenário real de SOC, o isolamento do host é a primeira ação de contenção para garantir que uma ameaça não se espalhe pela rede antes da limpeza.
+- Importância do Isolamento: Em um cenário real de invasão, o isolamento do host é a primeira ação de contenção para garantir que uma ameaça não se espalhe pela rede antes da limpeza.
 
 ---
 
@@ -105,7 +105,7 @@ Ao iniciar a operação, foram identificados 5 alertas e 3 estavam pendentes na 
 
 ## 🤖 Uso de IA:
 > [!NOTE]
-> Parte deste conteúdo foi elaborada com apoio de ferramentas de IA, utilizadas como auxílio na organização e redação do texto, com revisão e validação integral pelo autor.
+> Parte deste conteúdo foi elaborada com apoio de ferramentas de IA, utilizadas como auxílio na organização, com revisão e validação integral pelo autor.
 
 ---
 
